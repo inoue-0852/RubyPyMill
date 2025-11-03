@@ -1,0 +1,32 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# lib/ を読み込みパスに追加
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+
+require "thor"
+require "ruby_pymill"
+
+class RubyPyMillCLI < Thor
+  # Thor の予約語 run を避ける。ユーザーが `run` と打っても :exec に転送
+  map "run" => :exec
+
+  desc "exec INPUT_IPYNB", "Run papermill with Ruby wrapper"
+  method_option :output,   type: :string, aliases: "-o", required: true, desc: "Output notebook path"
+  method_option :kernel,   type: :string, default: "python3",            desc: "Jupyter kernel name"
+  method_option :params,   type: :string,                                 desc: "Path to params.json or JSON string"
+  method_option :cwd,      type: :string,                                 desc: "Working directory"
+  method_option :dry_run,  type: :boolean, default: false,                desc: "Print command only"
+  def exec(input_ipynb)
+    runner = RubyPyMill::Runner.new(kernel: options[:kernel], cwd: options[:cwd])
+    ok = runner.run(
+      input_ipynb:  input_ipynb,
+      output_ipynb: options[:output],
+      params_json:  options[:params],
+      dry_run:      options[:dry_run]
+    )
+    exit(ok ? 0 : 1)
+  end
+end
+
+RubyPyMillCLI.start(ARGV)
