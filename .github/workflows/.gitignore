@@ -1,0 +1,16 @@
+@'
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+examples/outputs/
+
+# Ruby / Bundler
+vendor/
+.bundle/
+Gemfile.lock
+
+# VS Code
+.vscode/*.log
+'@ | Out-File -Encoding utf8 .gitignore
