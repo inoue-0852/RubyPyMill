@@ -1,0 +1,20 @@
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-7qxli2 sitelibdir\=./.gem.20251105-12156-7qxli2 clean
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-7qxli2 sitelibdir\=./.gem.20251105-12156-7qxli2
+generating stringio-x64-mingw-ucrt.def
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-7qxli2 sitelibdir\=./.gem.20251105-12156-7qxli2 install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20251105-12156-7qxli2
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-7qxli2 sitelibdir\=./.gem.20251105-12156-7qxli2 clean

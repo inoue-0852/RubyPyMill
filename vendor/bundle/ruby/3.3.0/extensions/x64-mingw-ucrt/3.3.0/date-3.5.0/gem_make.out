@@ -1,0 +1,25 @@
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/date-3.5.0/ext/date
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with  -Werror... no
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/date-3.5.0/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-4wity8 sitelibdir\=./.gem.20251105-12156-4wity8 clean
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/date-3.5.0/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-4wity8 sitelibdir\=./.gem.20251105-12156-4wity8
+generating date_core-x64-mingw-ucrt.def
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.so
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/date-3.5.0/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-4wity8 sitelibdir\=./.gem.20251105-12156-4wity8 install
+/usr/bin/install -c -m 0755 date_core.so ./.gem.20251105-12156-4wity8
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/date-3.5.0/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-4wity8 sitelibdir\=./.gem.20251105-12156-4wity8 clean

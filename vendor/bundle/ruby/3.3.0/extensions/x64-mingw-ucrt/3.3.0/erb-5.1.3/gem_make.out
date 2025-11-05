@@ -1,0 +1,20 @@
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/erb-5.1.3/ext/erb/escape
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/erb-5.1.3/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-swfnb sitelibdir\=./.gem.20251105-12156-swfnb clean
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/erb-5.1.3/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-swfnb sitelibdir\=./.gem.20251105-12156-swfnb
+generating escape-x64-mingw-ucrt.def
+compiling escape.c
+linking shared-object erb/escape.so
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/erb-5.1.3/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-swfnb sitelibdir\=./.gem.20251105-12156-swfnb install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20251105-12156-swfnb/erb
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/erb-5.1.3/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-swfnb sitelibdir\=./.gem.20251105-12156-swfnb clean

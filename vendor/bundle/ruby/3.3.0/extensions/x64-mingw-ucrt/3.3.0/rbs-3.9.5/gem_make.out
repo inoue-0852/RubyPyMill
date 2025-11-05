@@ -1,0 +1,29 @@
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/rbs-3.9.5/ext/rbs_extension
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-sagerm sitelibdir\=./.gem.20251105-12156-sagerm clean
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-sagerm sitelibdir\=./.gem.20251105-12156-sagerm
+generating rbs_extension-x64-mingw-ucrt.def
+compiling ./../../src/constants.c
+compiling ./../../src/ruby_objs.c
+compiling ./../../src/util/rbs_constant_pool.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling unescape.c
+linking shared-object rbs_extension.so
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-sagerm sitelibdir\=./.gem.20251105-12156-sagerm install
+/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20251105-12156-sagerm
+
+current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20251105-12156-sagerm sitelibdir\=./.gem.20251105-12156-sagerm clean
