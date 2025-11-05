@@ -1,5 +1,5 @@
 /.venv/
-/examples/outputs/
+# /examples/outputs/
 /tmp/
 /coverage/
 *.log
