@@ -5,3 +5,7 @@
 *.log
 *.swp
 .DS_Store
+
+# allow example outputs for demo
+!examples/outputs/
+!examples/outputs/**
