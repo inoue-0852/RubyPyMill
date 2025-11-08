@@ -17,5 +17,6 @@
     "**/.venv": true,
     "**/.vrnv": false
   },
-  "terminal.integrated.defaultProfile.windows": "PowerShell"
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "ruby.lsp.diagnostics": false
 }

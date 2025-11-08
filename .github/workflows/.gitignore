@@ -1,14 +1,23 @@
-# Python
-.venv/
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-# examples/outputs/ 
+# RubyGem build artifacts
+/pkg/
+/coverage/
+/.yardoc
 
-# Ruby / Bundler
-vendor/
-.bundle/
+# Bundler / dependencies
+/vendor/
+/.bundle/
+# Gemfile.lock はライブラリ(Gem)では除外が推奨、アプリでは追跡可
 Gemfile.lock
 
-# VS Code
-.vscode/*.log
+# Python venv
+/.venv/
+/__pycache__/
+/pycache/
+
+# Editor / system files
+*.swp
+.DS_Store
+
+# Outputs / notebooks (動的出力は除外、サンプルは保持)
+examples/outputs/tmp*/
+examples/outputs/*.tmp

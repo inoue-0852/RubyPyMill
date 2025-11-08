@@ -1,5 +1,5 @@
 current directory: c:/Users/h_ino/Code/RubyPyMill/vendor/bundle/ruby/3.3.0/gems/psych-5.2.6/ext/psych
-C:/Ruby33-x64/bin/ruby.exe extconf.rb
+c:/Ruby33-x64/bin/ruby.exe extconf.rb
 checking for pkg-config for yaml-0.1... not found
 checking for yaml.h... no
 yaml.h not found
@@ -19,7 +19,7 @@ Provided configuration options:
 	--without-make-prog
 	--srcdir=.
 	--curdir
-	--ruby=C:/Ruby33-x64/bin/$(RUBY_BASE_NAME)
+	--ruby=c:/Ruby33-x64/bin/$(RUBY_BASE_NAME)
 	--with-libyaml-source-dir
 	--without-libyaml-source-dir
 	--with-yaml-0.1-dir
