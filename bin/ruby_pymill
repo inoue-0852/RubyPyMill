@@ -43,6 +43,12 @@ class RubyPyMillCLI < Thor
     )
     exit(ok ? 0 : 1)
   end
+
+  desc "version", "Show RubyPyMill version"
+  def version
+    puts RubyPyMill::VERSION
+  end
+
 end
 
 RubyPyMillCLI.start(ARGV)
