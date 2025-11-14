@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "ruby_pymill/version"
+require_relative "ruby_pymill/api"
 require "json"
 require "open3"
 require "tmpdir"
